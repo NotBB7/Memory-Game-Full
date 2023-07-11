@@ -1,0 +1,75 @@
+ol {
+    color: aliceblue;
+    list-style: decimal;
+    height: 630px;
+    overflow-y: auto;
+    padding-top: 95px;
+    font-size: 23px;
+    padding-left: 35px;
+    text-transform: none;
+    padding-right: 19px;
+}
+ol::-webkit-scrollbar{
+    width: 19px;
+}
+ol::-webkit-scrollbar-thumb{
+    background-color: #c4a3f1;
+    border: #6d61df 1px solid;
+    border-radius: 6px;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: black;
+    font-weight: 500;
+}
+#message, #submit{
+display: none;
+}
+#deco{
+    display: none;
+    position: relative;
+    z-index: 888;
+    margin: 0;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.verif{
+    z-index: 999;
+    position: relative;
+}
+.home-projects h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-bottom: 107%;
+    position: absolute;
+    font-weight: 400;
+
+}
+h2 {
+    text-transform: none;
+    color: rgb(181, 181, 181);
+}
+h3{
+    color: #fff;
+    font-size: 29px;
+    margin-bottom: 90%;
+    position: absolute;
+    font-weight: 400;
+}
+h1{
+    color: rgb(181, 181, 181);
+    
+}
+.registerbtn {
+    margin-right: 10px;
+    background-color: #050516;
+    color: white;
+    border: #742a2a 2px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 6px 5px 0px 0px;
+    padding: 0px 5px 0px 5px;
+}
+

@@ -1,0 +1,73 @@
+.end, .end2 {
+    z-index: 999;
+    position: absolute;
+    top: 17%;
+    left: 22%;
+    background-color: rgba(5, 1, 32, 0.914);
+    width: 850px;
+    height: 500px;
+    display: none;
+    border-radius: 10%;
+    opacity: 0;
+    transform: scale(0.001);
+    transition: all 1s ease-in;
+    border: thick double #edff00;
+    border-style: dashed double dashed;
+    border-width: 6px;
+    filter: brightness(1.3);
+}
+.endA{
+    transform: scale(1);
+    opacity: 1;
+}
+
+#ending {
+    position: relative;
+    font-size: 32px;
+    color: white;
+    width: 55%;
+    top: 80px;
+    left: 188px;
+    text-align: center;
+
+}
+#ending2{
+    position: relative;
+    font-size: 32px;
+    color: white;
+    width: 55%;
+    left: 188px;
+    text-align: center;
+    top: 120px;
+}
+
+#fin {
+    position: absolute;
+    top: 75%;
+    --button-shine-left: rgba(245, 8, 0, 0.981);
+    --button-shine-right: rgba(255, 221, 0, 0.996);
+    left: 40%;
+    transform: scale(1.4);
+}
+#fin2{
+    position: absolute;
+    --button-shine-left: rgba(245, 8, 0, 0.981);
+    --button-shine-right: rgba(255, 221, 0, 0.996);
+    left: 40%;
+    transform: scale(1.4);
+    top: 65%;
+}
+#fin:hover{
+    transform: scale(1.5);
+}
+#fin2:hover{
+    transform: scale(1.5);
+}
+.point{
+    top: 200px;
+    transition: all 0s;
+}
+#timer{
+    
+    top: 300px;
+}
